@@ -4,13 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
     <div class="header">
-        <!--main header will have logo and links, subheader will have title and image-->
+        <!--main header will have logo and links-->
+        <div class="logo"><p>Header Logo</p></div>
+        <div class="header-links">
+            <a href="./index.html">header link one</a>
+            <a href="./index.html">header link two</a>
+            <a href="./index.html">header link three</a>
+        </div>
+    </div>
+    <div class="hero">
+        <!--subheader will have title, subtext and image-->
+        <div class="hero-left">
+            <h1>This website is awesome</h1>
+            <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lowest contrast</p>
+            <button>Sign up!</button>
+        </div>
+        <div class="hero-right">
+            <img src="https://images.pexels.com/photos/115553/pexels-photo-115553.jpeg?auto=compress&cs=tinysrgb&w=400">
+        </div>
     </div>
     <div class="middle">
         <!--split into images section which will need it's own flexbox, quote section and call to action section-->
+        <h2>Some random information</h2>
+        <div class="random">
+        
+            <div class="r1">
+                <img src="https://images.pexels.com/photos/2389349/pexels-photo-2389349.jpeg">
+                <p>subtext</p>
+            </div>
+            <div class="r2">
+                <img src="https://images.pexels.com/photos/2389349/pexels-photo-2389349.jpeg">
+                <p>subtext</p>
+            </div>
+            <div class="r3">
+                <img src="https://images.pexels.com/photos/2389349/pexels-photo-2389349.jpeg">
+                <p>subtext</p>
+            </div>
+            <div class="r4">
+                <img src="https://images.pexels.com/photos/2389349/pexels-photo-2389349.jpeg">
+                <p>subtext</p>
+            </div>
+        </div>
+        <div class="quote">
+            <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
+            <p>-Thor, God of Thunder</p>
+        </div>
+        <div class="cta">
+            <div class="cta-left">
+            <h3>Call to action! it's time!</h3>
+            <p>Sign up for our products by clicking that button right over there!</p>
+            </div>
+            <button>Sign Up!</button>
+        </div>
     </div>
     <div class ="footer">
         <!--footer info-->
