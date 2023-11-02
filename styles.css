@@ -3,6 +3,7 @@ body {
     margin: 0;
 }
 
+
 .main {
     display: flex;
     flex-direction: column;
@@ -71,10 +72,8 @@ a {
     padding: 8px 16px;
     background-color: #3882F6;
     color: #E5E7EB;
-    border: none;
+    border-color: white;
 }
-
-
 
 .middle {
     display: flex;
@@ -160,7 +159,6 @@ h3 {
     border-radius: 8px;
     border-color: white;
     border-width: 2px;
-    border-style: solid;
     align-self: center;
 }
 
