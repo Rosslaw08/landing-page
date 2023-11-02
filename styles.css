@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto';
+    margin: 0;
 }
 
 .main {
@@ -170,4 +171,5 @@ h3 {
     background-color: #1F2937;
     font-family: 'Roboto';
     color: #F9FAF8;
+    margin: 0;
 }
